@@ -1,0 +1,172 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+html,body {
+  width: 100%;
+  margin: 0;
+  background-color: #212121;
+  background: url(image/background.jpg) no-repeat;
+  background-size: cover;
+  }
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 150px;
+  margin: 0 100px;
+  flex-wrap: wrap;
+}
+
+.nav a img {
+  width: 50px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.nav a {
+    color: white;
+    flex: 1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*tạo button signup*/
+.nav a:last-child {
+  background-color: #2196F3;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 160px;
+  height: 45px;
+  margin: auto;
+  line-height: 45px;
+  border-radius: 5px;
+}
+
+.nav a:nth-child(5) {
+  /*text-align: right;*/
+  padding-right: 20px;
+}
+
+.nav a:first-child {
+  text-align: left;
+  flex: 4;
+}
+
+.main {
+  text-align: center;
+}
+
+.main h3 {
+  margin-top: 45px;
+  color: white;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.main h3 span {
+  color:  #2196F3;
+}
+
+.main img {
+  width: 37.5%;
+  margin-top: 35px;
+}
+
+.main h4 {
+  margin-top: 70px;
+  font-size: 22px;
+  color: white;
+  font-weight: 300px;
+}
+
+.buttonOne {
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: #2196F3;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  margin: 50px auto 80px auto;
+  border-radius: 5px;
+}
+
+.footer{
+  background-color: #FFF;
+  padding: 50px 0 20px 0;
+}
+
+.footerWrapper {
+  display: flex;
+  margin: 0 200px;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer a span {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 20px;
+  color: #c70b74;
+  font-weight: 500;
+}
+
+.footerGroup {
+  flex: 1;
+}
+
+.footerGroup ul {
+  list-style: none;
+}
+
+.copyWrapper {
+  margin: 0 200px;
+  height: 90px;
+}
+
+.copyWrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyWrapper li{
+  color: #c70b74;
+  flex: 1;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.copyWrapper ul li:nth-child(3) {
+  text-align: right;
+  padding: 0 60px;
+}
+
+.copyWrapper ul li:nth-child(2){
+  flex: 3;
+}
+
+.copyWrapper ul li:first-child {
+  flex: 1;
+    
+}
+.copyWrapper a {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.copyWrapper img {
+  width: 50px;
+}
